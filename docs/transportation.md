@@ -7,8 +7,8 @@ sidebar_label: "Overview"
 
 Bike can be transported in following means of transport:
 - [Train](transportation/train) (Primary)
-- [Metro](transportation/metro)
-- [Tram](transportation/tram)
+- [Metro](transportation/metro) (Applicable for some Prague Trails)
+- [Tram](transportation/tram) (Applicable for some Prague Trails)
 
 Trains are the primary means of transportation as every Prague Trail starts and ends near the railway station.
 
@@ -16,12 +16,16 @@ The additional means of transportation are trams and metro.
 
 ## Fare
 
-Prague Trails are planned so they are within basic tarif area. It means that it's enough to have public transport card ("Lítačka") with valid tarif for Prague area or you can use single ticket for 30 minutes (30 Kč). The tranportation of the bike itself is free within Prague tarif area.
+### Prague
+
+Prague Trails are planned so they are within basic tariff area. It means that it's enough to have public transport card ("Lítačka") with valid tariff for Prague area or you can use single ticket for 30 minutes (30 Kč). The transportation of the bike itself is free within Prague tariff area.
+
+### Out of Prague
 
 ## Map
 
-[![Bike Transportation in Prague Public Tranport][pid]][pid-link]
+[![Bike Transportation in Prague Public Transport][pid]][pid-link]
 
 [pid-link]: https://pid.cz/wp-content/uploads/mapy/ostatni/a5_cyklo_doprava.png
 [pid]: /img/pid-metro-and-trams.png
-(Bike Transportation in Prague Public Tranport)
+(Bike Transportation in Prague Public Transport)

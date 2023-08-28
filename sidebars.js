@@ -20,6 +20,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Prague Trails',
+      collapsed: false,
       link: { type: 'doc', id: 'trails/prague' },
       items: [
         {

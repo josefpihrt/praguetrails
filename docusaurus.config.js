@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Bohemian Trails',
-  tagline: 'Natural Trails for XC Bikes In and Around the Prague',
+  tagline: 'Natural Cross Country Trails In and Around the Prague',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,6 +76,7 @@ const config = {
             label: 'Transportation',
           },
           {to: '/docs/code-of-conduct', label: 'Code of Conduct', position: 'left'},
+          {to: '/docs/faq', label: 'FAQ', position: 'left'},
           {to: '/docs/contact', label: 'Contact', position: 'left'},
         ],
       },
