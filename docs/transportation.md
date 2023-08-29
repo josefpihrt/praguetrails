@@ -29,3 +29,7 @@ Prague Trails are planned so they are within basic tariff area. It means that it
 [pid-link]: https://pid.cz/wp-content/uploads/mapy/ostatni/a5_cyklo_doprava.png
 [pid]: /img/pid-metro-and-trams.png
 (Bike Transportation in Prague Public Transport)
+
+- Blue: Trains
+- Green/Yellow/Red: Metro
+- Dark Red: Trams

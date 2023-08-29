@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 sidebar_label: "Shark A"
 title: "Shark A Trail"
 ---
@@ -15,8 +14,8 @@ TODO
 | Property | Value |
 | --- | --- |
 | Distance | 19 km |
-| Elevation loss | ~190 m |
-| Start | Ruzyně train station ([see timetable from Dejvice](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha-Dejvice&fc=100003&t=Praha-Ruzyn%C4%9B&tc=100003&direct=true&af=true&fcs=3)) |
+| Elevation loss | 190 m |
+| Start | Ruzyně train station ([see timetable from Dejvice](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha-Dejvice&fc=100003&t=Praha-Ruzyn%C4%9B&tc=100003&direct=true&af=true&trt=150,151,152,153&fcs=3)) |
 | Finish | Podbaba |
 
 ## Map
@@ -27,5 +26,5 @@ TODO
 
 ### Train
 
-- Route: Dejvice -> Ruzyně ([see timetable](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha-Dejvice&fc=100003&t=Praha-Ruzyn%C4%9B&tc=100003&direct=true&af=true&fcs=3))
-- Travel time ~11 min.
+- Route: Dejvice -> Ruzyně ([see timetable](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha-Dejvice&fc=100003&t=Praha-Ruzyn%C4%9B&tc=100003&direct=true&af=true&trt=150,151,152,153&fcs=3))
+- Travel time 11 min.

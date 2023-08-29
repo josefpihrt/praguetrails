@@ -1,31 +1,27 @@
 ---
 sidebar_position: 1
-sidebar_label: "Introduction"
+sideba r_label: "Introduction"
 ---
 
 # Introduction
 
-:::info Summary
-Bohemian Trails are **unmarked** **natural** trails on public trails, tracks, paths, and (as less as possible) roads. 
-:::
+Prague and its surrounding areas are the promised land for cross country biking. Hilly terrain with rapidly changing sections of parks, forest parks, forests and industrial areas creates unique mosaic which deserved to be ridden with mountain bike.
 
-## Concept
+Bohemian Trails:
 
-Prague is very hilly and has large number of parks, forest parks and forests. Prague Trails exploit these two properties and offers trails with elevation loss and touch of nature in the city. Roads with traffic and more broadly roads with solid surface are avoided if possible.
+✔️ are unmarked (navigation device or smartphone with navigation app is needed at least for first ride) <br />
+✔️ go through public trails, tracks or paths with natural surface <br />
+✔️ avoid roads with traffic if possible <br />
+✔️ avoid paths with solid surface if possible <br />
+✔️ can be comfortably ridden with XC hardtail bike <br />
+✔️ explore Prague parks, forest parks and forests <br />
+✔️ are planned to be 20-30 km long (1-2 hours ride) <br />
+✔️ are planned to start and end near train station to provide easy transportation (sometimes also near metro/tram station) <br />
+✔️ have various difficulty, but extreme climb, descents are avoided
 
-## Distance
-
-The courses are planned to be between 20-30 km long.
-
-## Transportation
-
-All trails start and end close to the train station and/or tram stop. If you live downtown take train or tram to get close to the starting point. If you live close to the starting point ride the trail and then take train or tram to get you back home.
-
-## Navigation
-
-As the trails are not marked it's necessary (at least for first ride) to use GPS navigation device or a phone with navigation app. For GPX files for each trail please see [Trails](trails) section.
-
-## Difficulty
-
-As trails are planned on existing public trails and paths os it's not easy to determine difficulty of each trail. Generally the trails can be comfortably ridden with cross-country hardtail mountain bike, they are not suitable for beginners or non-mountain bike. Some more challenging passages can be crossed on feet if a rider does not feel comfortable with riding it.
-
+❌ are not marked <br />
+❌ are not trails in a sense of dedicated man-made trails such as those in bike parks <br />
+❌ do not contain any artificial obstacles <br />
+❌ are not intended to to ridden by beginner <br />
+❌ are not intended to to ridden by non-mountation bike <br />
+❌ are not divided by difficulty

@@ -30,5 +30,5 @@
 }
 
 .theme-doc-sidebar-menu {
-  font-size: calc((var(--ifm-font-size-base) / var(--ifm-line-height-base)) * 1.4);
+  font-size: calc((var(--ifm-font-size-base) / var(--ifm-line-height-base)) * 1.5);
 }
