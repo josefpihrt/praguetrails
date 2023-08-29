@@ -1,23 +1,23 @@
 ---
 sidebar_position: 1
 sidebar_label: "Bulgarian"
-title: "Semmering Trail"
+title: "Bulgarian Trail"
 ---
 
-# "Bulgarian" (Horní Počernice - Bulhar)
+# Bulgarian (Horní Počernice - Bulhar)
 
-## Intro
+## Introduction
 
-"Bulgarian" trails offer unique experience how to get from the north east suburb to the center of the Prague and still be in the nature environment.
+Bulgarian trail offers unique experience how to get from the north east suburb to the center of the Prague and still be in the nature environment.
 
-## Properties
+## Summary
 
 | Property | Value |
 | --- | --- |
 | Distance | 21 km |
 | Elevation loss | ~80 m |
-| Start | Horní Počernice railway station ([see timetable from Masaryk railway station](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20Masarykovo%20n.&fc=100003&t=Praha-Hor.Po%C4%8Dernice&tc=100003&direct=true&af=true&fcs=3)) <br /> Klánovice railway station ([see timetable from Masaryk railway station](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20Masarykovo%20n.&fc=100003&t=Praha-Kl%C3%A1novice&tc=100003&direct=true&af=true&fcs=3)) |
-| Finish | Bulhar junction (near Masaryk railway station and Central railway station) |
+| Start | Horní Počernice train station ([see timetable from Masaryk train station](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20Masarykovo%20n.&fc=100003&t=Praha-Hor.Po%C4%8Dernice&tc=100003&direct=true&af=true&fcs=3)) <br /> Klánovice train station ([see timetable from Masaryk train station](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20Masarykovo%20n.&fc=100003&t=Praha-Kl%C3%A1novice&tc=100003&direct=true&af=true&fcs=3)) |
+| Finish | Bulhar junction (near Masaryk train station and Central train station) |
 
 ## Map
 
@@ -35,10 +35,15 @@ Course can either at Horní Počernice or at Klánovice. After several kilometer
 
 ### Train to Horní Počernice
 
-- Route: Masaryk railway station -> Horní Počernice ([see timetable](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20Masarykovo%20n.&fc=100003&t=Praha-Hor.Po%C4%8Dernice&tc=100003&direct=true&af=true&fcs=3))
+- Route: Masaryk train station -> Horní Počernice ([see timetable](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20Masarykovo%20n.&fc=100003&t=Praha-Hor.Po%C4%8Dernice&tc=100003&direct=true&af=true&fcs=3))
 - Travel time ~20 min.
 
 ### Train to Klánovice
 
-- Route: Masaryk railway station -> Klánovice ([see timetable](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20Masarykovo%20n.&fc=100003&t=Praha-Kl%C3%A1novice&tc=100003&direct=true&af=true&fcs=3))
+- Route: Masaryk train station -> Klánovice ([see timetable](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20Masarykovo%20n.&fc=100003&t=Praha-Kl%C3%A1novice&tc=100003&direct=true&af=true&fcs=3))
 - Travel time ~21 min.
+
+### Next Trails
+
+- [Spinning Wheel](spinning-wheel) (train from Central train station)
+- [Bluish](bluish) (train from Central train station)

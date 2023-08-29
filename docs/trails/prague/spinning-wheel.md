@@ -4,19 +4,19 @@ sidebar_label: "Spinning Wheel"
 title: "Spinning Wheel Trail"
 ---
 
-# "Spinning Wheel" (Kolovraty - Braník)
+# Spinning Wheel (Kolovraty - Braník)
 
-## Intro
+## Introduction
 
 Spinning Wheel is on the longer trails which go through Hostivař forest and Kunratice forest, one the largest forest in Prague.
 
-## Properties
+## Summary
 
 | Property | Value |
 | --- | --- |
 | Distance | 30 km |
 | Elevation loss | ~120 m |
-| Start | Kolovraty railway station ([see timetable from Central railway station](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20hl.n.&fc=100003&t=Praha-Kolovraty&tc=100003&direct=true&af=true&fcs=3)) |
+| Start | Kolovraty train station ([see timetable from Central train station](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha%20hl.n.&fc=100003&t=Praha-Kolovraty&tc=100003&direct=true&af=true&fcs=3)) |
 | Finish | Braník |
 
 ## Map

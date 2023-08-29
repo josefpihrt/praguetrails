@@ -75,6 +75,7 @@ const config = {
             position: 'left',
             label: 'Transportation',
           },
+          {to: '/docs/story', label: 'Story', position: 'left'},
           {to: '/docs/code-of-conduct', label: 'Code of Conduct', position: 'left'},
           {to: '/docs/faq', label: 'FAQ', position: 'left'},
           {to: '/docs/contact', label: 'Contact', position: 'left'},

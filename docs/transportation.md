@@ -10,7 +10,7 @@ Bike can be transported in following means of transport:
 - [Metro](transportation/metro) (Applicable for some Prague Trails)
 - [Tram](transportation/tram) (Applicable for some Prague Trails)
 
-Trains are the primary means of transportation as every Prague Trail starts and ends near the railway station.
+Trains are the primary means of transportation as every Prague Trail starts and ends near the train station.
 
 The additional means of transportation are trams and metro.
 
