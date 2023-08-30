@@ -1,9 +1,9 @@
 ---
-sidebar_label: "There and Back Again"
-title: "There and Back Again Trail"
+sidebar_label: "Beety"
+title: "Beety Trail"
 ---
 
-# There and Back Again (Jinonice - Braník)
+# Beety (Jinonice - Braník)
 
 ## Introduction
 

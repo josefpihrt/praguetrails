@@ -7,7 +7,7 @@ title: "Shark B Trail"
 
 ## Introduction
 
-TODO
+Shark B offers beatiful Goat Backs trail and absolutely unique goat trail going above Vltava river.
 
 ## Summary
 

@@ -7,7 +7,7 @@ title: "Spinning Wheel Trail"
 
 ## Introduction
 
-Spinning Wheel is on the longer trails which go through Hostivař forest and Kunratice forest, one the largest forest in Prague.
+Spinning Wheel is longest of Prague Trails. It goes through Hostivař forest and Kunratice forest, one the largest forest in Prague.
 
 ## Summary
 

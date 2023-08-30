@@ -20,7 +20,7 @@ TODO
 
 ## Map
 
-<iframe src="https://en.frame.mapy.cz/s/hufetozoje" width="60%" height="333" frameborder="0"></iframe>
+<iframe src="https://en.frame.mapy.cz/s/demajutate" width="60%" height="333" frameborder="0"></iframe>
 
 ## Transportation
 
