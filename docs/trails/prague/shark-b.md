@@ -7,7 +7,7 @@ title: "Shark B Trail"
 
 ## Introduction
 
-Shark B offers beatiful Goat Backs trail and absolutely unique goat trail going above Vltava river.
+Shark B offers beautiful Goat Backs trail and absolutely unique goat trail going above Vltava river.
 
 ## Summary
 
@@ -15,8 +15,8 @@ Shark B offers beatiful Goat Backs trail and absolutely unique goat trail going 
 | --- | --- |
 | Distance | 25 km |
 | Elevation loss | 190 m |
-| Start | Ruzyně train station ([see timetable from Dejvice](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha-Dejvice&fc=100003&t=Praha-Ruzyn%C4%9B&tc=100003&direct=true&af=true&trt=150,151,152,153&fcs=3)) |
-| Finish | Podbaba <br /> Sedlec ([see timetable](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha-Sedlec&fc=100003&t=Praha%20Masarykovo%20n.&tc=100003&direct=true&af=true&trt=150,151,152,153&fcs=3)) |
+| Start | 📍 Ruzyně train station |
+| Finish | 📍 Podbaba <br /> 📍 Sedlec train station |
 
 ## Map
 
@@ -26,5 +26,6 @@ Shark B offers beatiful Goat Backs trail and absolutely unique goat trail going 
 
 ### Train
 
-- Route: Dejvice -> Ruzyně ([see timetable](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha-Dejvice&fc=100003&t=Praha-Ruzyn%C4%9B&tc=100003&direct=true&af=true&trt=150,151,152,153&fcs=3))
-- Travel time 11 min.
+| Type | Route | Time |
+| --- | --- | --- |
+| Train | [Dejvice ➞ Ruzyně](https://idos.idnes.cz/vlakyautobusymhdvse/spojeni/vysledky/?f=Praha-Dejvice&fc=100003&t=Praha-Ruzyn%C4%9B&tc=100003&direct=true&af=true&trt=150,151,152,153&fcs=3 "See timetable") | 11 min. |
