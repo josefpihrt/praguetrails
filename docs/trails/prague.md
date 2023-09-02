@@ -9,7 +9,7 @@ sidebar_label: "Prague Trails"
 
 <iframe src="https://frame.mapy.cz/s/muvunufece" width="80%" height="450" frameborder="0"></iframe>
 
-*(Click on "Show on map" to see detailed view)*
+*(Click on the trail for details or click on "Show on map" to see list of trails)*
 
 ## Trails
 
@@ -18,11 +18,11 @@ sidebar_label: "Prague Trails"
 | [Beety](prague/beety) | 20 km | Jinonice | Braník |
 | [Bluish](prague/bluish) | 21 km | Zbraslav | Braník |
 | [Bulgarian](prague/bulgarian) | 21 km | Horní Počernice/Klánovice | Bulhar |
+| [Hokun](prague/hokun) | 26 km | Uhříněves | Braník |
 | [Ladewi](prague/ladewi) | 20 km | Vysočany | Podbaba |
 | [Semmering](prague/semmering) | 22-23 km | Ruzyně | Braník |
 | [Shark A](prague/shark-a) | 19 km | Ruzyně | Podbaba |
 | [Shark B](prague/shark-b) | 25 km | Ruzyně | Podbaba |
-| [Spinning Wheel](prague/spinning-wheel) | 30 km | Kolovraty | Braník |
 
 ## Transportation
 

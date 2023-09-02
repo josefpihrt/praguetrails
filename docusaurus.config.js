@@ -58,6 +58,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Bohemian Trails',
+        hideOnScroll: true,
         logo: {
           alt: 'Bohemain Trails Logo',
           src: 'img/logo.svg',
@@ -86,6 +87,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      }
     }),
 };
 
