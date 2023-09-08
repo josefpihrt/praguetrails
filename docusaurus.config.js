@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Bohemian Trails',
-  tagline: 'Natural Cross Country Trails In and Around the Prague',
+  tagline: 'Cross Country Trails In and Around the Prague',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -58,7 +58,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Bohemian Trails',
-        hideOnScroll: true,
+        // hideOnScroll: true,
         logo: {
           alt: 'Bohemain Trails Logo',
           src: 'img/logo.svg',
@@ -72,12 +72,12 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'transportationSidebar',
+            sidebarId: 'mapsSidebar',
             position: 'left',
-            label: 'Transportation',
+            label: 'Maps',
           },
+          {to: '/docs/transportation', label: 'Transportation', position: 'left'},
           {to: '/docs/faq', label: 'FAQ', position: 'left'},
-          {to: '/docs/contact', label: 'Contact', position: 'left'},
         ],
       },
       footer: {
