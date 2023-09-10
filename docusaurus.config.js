@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Bohemian Trails',
-  tagline: 'Cross Country Trails In and Around the Prague',
+  tagline: 'Cross Country Trails In And Around Prague',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -72,16 +72,15 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'mapsSidebar',
+            sidebarId: 'transportationSidebar',
             position: 'left',
-            label: 'Maps',
+            label: 'Transportation',
           },
-          {to: '/docs/transportation', label: 'Transportation', position: 'left'},
           {to: '/docs/faq', label: 'FAQ', position: 'left'},
         ],
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt`,
+        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt.`,
       },
       prism: {
         theme: lightCodeTheme,

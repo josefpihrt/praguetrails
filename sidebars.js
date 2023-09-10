@@ -41,12 +41,24 @@ const sidebars = {
     //   ],
     // },
   ],
-  mapsSidebar: [
-    { type: "doc", id: "maps/prague-trails", label: "Prague Trails" },
-    { type: "doc", id: "maps/prague-public-transport", label: "Prague Public Transport" },
-    { type: "doc", id: "maps/trains", label: "Trains" },
-  ]
-
+  transportationSidebar: [
+    { type: "doc", id: "transportation/overview", label: "Overview" },
+    { type: "doc", id: "transportation/train-timetables", label: "Train Timetables" },
+    {
+      type: 'category',
+      label: 'Maps',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Maps',
+        slug: '/transportation/maps',
+      },
+      items: [
+        'transportation/maps/prague-public-transport',
+        'transportation/maps/trains',
+        'transportation/maps/prague-trains'
+      ],
+    },  ],
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
