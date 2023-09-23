@@ -61,7 +61,7 @@ const config = {
         // hideOnScroll: true,
         logo: {
           alt: 'Bohemain Trails Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
