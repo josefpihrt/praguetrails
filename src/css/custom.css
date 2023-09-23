@@ -32,3 +32,8 @@
 .theme-doc-sidebar-menu {
   font-size: calc((var(--ifm-font-size-base) / var(--ifm-line-height-base)) * 1.5);
 }
+
+/* https://github.com/facebook/docusaurus/discussions/6525#discussioncomment-4489776 */
+.pagination-nav {
+  display: none;
+}
