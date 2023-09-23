@@ -7,11 +7,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Bohemian Trails',
-  tagline: 'Cross Country Trails In And Around Prague',
+  tagline: 'Cross Country Bike Trails In and Around Prague',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://bohemiantrails.com',
+  url: 'https://www.bohemiantrails.cz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -55,13 +55,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/bohemian-trails-social-card.jpg',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
-        title: 'Bohemian Trails',
+        // title: 'Bohemian Trails',
         // hideOnScroll: true,
         logo: {
-          alt: 'Bohemain Trails Logo',
-          src: 'img/logo.png',
+          alt: 'Bohemian Trails Logo',
+          src: 'img/bohemian-trails-logo-large.png',
         },
         items: [
           {
@@ -80,7 +85,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Bohemian Trails Team`,
       },
       prism: {
         theme: lightCodeTheme,
