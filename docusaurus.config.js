@@ -56,11 +56,9 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/bohemian-trails-social-card.jpg',
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
-      },
+      // colorMode: {
+      //   defaultMode: 'dark',
+      // },
       navbar: {
         // title: 'Bohemian Trails',
         // hideOnScroll: true,
