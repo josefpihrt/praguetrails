@@ -83,7 +83,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Bohemian Trails Team`,
+        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt`,
       },
       prism: {
         theme: lightCodeTheme,
