@@ -38,6 +38,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -79,7 +80,7 @@ const config = {
             position: 'left',
             label: 'Transportation',
           },
-          {to: '/docs/faq', label: 'FAQ', position: 'left'},
+          {to: '/faq', label: 'FAQ', position: 'left'},
         ],
       },
       footer: {
