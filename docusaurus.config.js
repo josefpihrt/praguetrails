@@ -84,7 +84,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt`,
+        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
