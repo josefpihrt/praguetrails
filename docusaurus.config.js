@@ -80,7 +80,7 @@ const config = {
             position: 'left',
             label: 'Transportation',
           },
-          {to: '/docs/faq', label: 'FAQ', position: 'left'},
+          {to: '/faq', label: 'FAQ', position: 'left'},
         ],
       },
       footer: {
