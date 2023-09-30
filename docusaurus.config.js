@@ -84,7 +84,49 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt`,
+        style: 'light',
+        links: [
+          {
+            title: 'Trails',
+            items: [
+              {
+                label: 'Prague Trails',
+                to: 'trails/prague',
+              },
+            ],
+          },
+          {
+            title: 'Transportation',
+            items: [
+              {
+                label: 'Trains Timetables',
+                to: 'transportation/trains-timetables',
+              },
+              {
+                label: 'Prague Public Transport Map',
+                href: 'https://pid.cz/wp-content/uploads/mapy/ostatni/a5_cyklo_doprava.png',
+              },
+              {
+                label: 'Trains Map',
+                href: 'https://pid.cz/wp-content/uploads/mapy/schemata-trvala/Esko.pdf',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/josefpihrt/bohemiantrails',
+              },
+              {
+                label: 'X',
+                href: 'https://www.twitter.com/bohemian_trails',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
