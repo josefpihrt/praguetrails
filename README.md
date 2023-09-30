@@ -1,6 +1,12 @@
-# Website
+![Bohemian Trails Logo](static/img/bohemian-trails-horizontal-logo.png)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Introduction
+
+This repo contains source code for [bohemiantrails.cz](https://bohemiantrails.cz)
+
+## Website
+
+The website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
