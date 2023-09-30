@@ -96,6 +96,23 @@ const config = {
             ],
           },
           {
+            title: 'Transportation',
+            items: [
+              {
+                label: 'Trains Timetables',
+                to: 'transportation/trains-timetables',
+              },
+              {
+                label: 'Prague Public Transport Map',
+                href: 'https://pid.cz/wp-content/uploads/mapy/ostatni/a5_cyklo_doprava.png',
+              },
+              {
+                label: 'Trains Map',
+                href: 'https://pid.cz/wp-content/uploads/mapy/schemata-trvala/Esko.pdf',
+              },
+            ],
+          },
+          {
             title: 'More',
             items: [
               {

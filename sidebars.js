@@ -43,7 +43,7 @@ const sidebars = {
   ],
   transportationSidebar: [
     { type: "doc", id: "transportation/overview", label: "Overview" },
-    { type: "doc", id: "transportation/train-timetables", label: "Train Timetables" },
+    { type: "doc", id: "transportation/trains-timetables", label: "Trains Timetables" },
     {
       type: 'category',
       label: 'Maps',
