@@ -1,6 +1,6 @@
 ![Bohemian Trails Logo](static/img/bohemian-trails-horizontal-logo.png)
 
-This repo contains source code for [bohemiantrails.cz](https://bohemiantrails.cz).
+This repo contains source code for [bohemiantrails.cz](https://bohemiantrails.cz)
 
 ## Developers
 
