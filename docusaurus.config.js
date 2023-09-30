@@ -84,6 +84,31 @@ const config = {
         ],
       },
       footer: {
+        style: 'light',
+        links: [
+          {
+            title: 'Trails',
+            items: [
+              {
+                label: 'Prague Trails',
+                to: 'trails/prague',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/josefpihrt/bohemiantrails',
+              },
+              {
+                label: 'X',
+                href: 'https://www.twitter.com/bohemian_trails',
+              },
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt. Built with Docusaurus.`,
       },
       prism: {
