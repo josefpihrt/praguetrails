@@ -123,6 +123,10 @@ const config = {
                 label: 'X',
                 href: 'https://www.twitter.com/bohemian_trails',
               },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/people/Bohemian-Trails/61552066348228',
+              },
             ],
           },
         ],
