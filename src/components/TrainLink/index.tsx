@@ -4,21 +4,21 @@ import clsx from 'clsx';
 
 import Link from '@docusaurus/Link';
 
-export enum Sizes {
-  CentralStation,
-  Chuchle,
+export enum TrainStations {
+  Dejvice,
+  Ruzyne,
 }
 
 export interface Props {
-  caption: Sizes,
+  caption: TrainStations,
   desktopLink: string;
   mobileLink: string;
 }
 
-function GetValue (value: Sizes)
+function GetValue (value: TrainStations)
 {
   switch (value) {
-    case Sizes.CentralStation: {
+    case TrainStations.Dejvice: {
       return "hlavni";
     }
     default: {
