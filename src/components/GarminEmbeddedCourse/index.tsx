@@ -10,10 +10,7 @@ export default function GarminEmbeddedCourse({
   const url = `https://connect.garmin.com/modern/course/embed/${id}`;
   return (
     <div>
-      <iframe src={url} width='60%' height='500' />
-      <div>
-        <i>Click on trail name to see detailed profile</i>
-      </div>
+      <iframe src={url} width='465' height='548' />
     </div>
   );
 }
