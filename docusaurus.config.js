@@ -130,7 +130,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt.`,
       },
       prism: {
         theme: lightCodeTheme,
