@@ -64,13 +64,11 @@ export default function TrailRouteLink({
       <Link to={gpxUrl}>
         GPX
       </Link>
-      &nbsp;
-      &nbsp;
+      <span> - </span>
       <Link to={garminUrl}>
         Garmin
       </Link>
-      &nbsp;
-      &nbsp;
+      <span> - </span>
       <Link to={mapyczUrl}>
         Mapy.cz
       </Link>
