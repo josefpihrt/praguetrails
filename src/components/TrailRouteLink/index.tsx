@@ -56,16 +56,19 @@ function GetMapyCzId(id: string) {
 export default function TrailRouteLink({
   id,
 }: Props): JSX.Element {
-  const gpxUrl = `/gpx/prague-trails-${id}.gpx`;
+  const gpxUrl = `https://connect.garmin.com/modern/proxy/course-service/course/gpx/${GetGarminId(id)}`;
   const garminUrl = `https://connect.garmin.com/modern/course/${GetGarminId(id)}`;
   const mapyczUrl = `https://en.mapy.cz/turisticka?dim=${GetMapyCzId(id)}&z=13`;
   return (
     <>
+      <Link to={gpxUrl}>
+        GPX
+      </Link>
+      <span> - </span>
       <Link to={garminUrl}>
         Garmin
       </Link>
-      &nbsp;
-      &nbsp;
+      <span> - </span>
       <Link to={mapyczUrl}>
         Mapy.cz
       </Link>
