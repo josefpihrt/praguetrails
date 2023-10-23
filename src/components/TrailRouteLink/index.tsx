@@ -41,7 +41,7 @@ function GetMapyCzId(id: string) {
     case "laadchee":
       return "6515f72525e33d94be29277e";
     case "rockyt":
-      return "651877615a91d7ce7e1692f6";
+      return "65363b85a80e3a2fbc8f11cc";
     case "semmering":
       return "652d80293a4984d1a065acef";
     case "shark-a":
