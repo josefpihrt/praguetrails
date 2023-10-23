@@ -58,19 +58,8 @@ const sidebars = {
         'transportation/maps/trains',
         'transportation/maps/prague-trains'
       ],
-    },  ],
-  // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
     },
   ],
-   */
 };
 
 module.exports = sidebars;

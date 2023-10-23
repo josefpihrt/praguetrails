@@ -80,6 +80,7 @@ const config = {
             position: 'left',
             label: 'Transportation',
           },
+          {to: '/news', label: 'News', position: 'left'},
           {to: '/faq', label: 'FAQ', position: 'left'},
         ],
       },
