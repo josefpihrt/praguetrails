@@ -1,10 +1,5 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+import {themes as prismThemes} from 'prism-react-renderer';
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Bohemian Trails',
   tagline: 'Cross Country Bike Trails In and Around Prague',
@@ -134,8 +129,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
       docs: {
         sidebar: {
