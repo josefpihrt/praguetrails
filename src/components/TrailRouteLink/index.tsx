@@ -58,7 +58,6 @@ export default function TrailRouteLink({
 }: Props): JSX.Element {
   const gpxUrl = `https://connect.garmin.com/modern/proxy/course-service/course/gpx/${GetGarminId(id)}`;
   const garminUrl = `https://connect.garmin.com/modern/course/${GetGarminId(id)}`;
-  const mapyczUrl = `https://en.mapy.cz/turisticka?dim=${GetMapyCzId(id)}&z=13`;
   return (
     <>
       <Link to={gpxUrl}>
@@ -67,10 +66,6 @@ export default function TrailRouteLink({
       <span> - </span>
       <Link to={garminUrl}>
         Garmin
-      </Link>
-      <span> - </span>
-      <Link to={mapyczUrl}>
-        Mapy.cz
       </Link>
     </>
   );
