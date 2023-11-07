@@ -22,7 +22,7 @@ function GetGarminId(id: string) {
       return "211858322";
     case "shark-a":
       return "211895409";
-    case "shuss":
+    case "sunrose":
       return "211914796";
     default:
       throw new Error();
@@ -46,7 +46,7 @@ function GetMapyCzId(id: string) {
       return "652d80293a4984d1a065acef";
     case "shark-a":
       return "6515f72525e33d94be29277b";
-    case "shuss":
+    case "sunrose":
       return "6515f72525e33d94be29277a";
     default:
       throw new Error();
