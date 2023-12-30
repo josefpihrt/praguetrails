@@ -104,7 +104,7 @@ const config = {
               },
               {
                 label: 'Trains Map',
-                href: 'https://pid.cz/wp-content/uploads/mapy/schemata-trvala/Esko.pdf',
+                href: 'https://pid.cz/wp-content/uploads/mapy/schemata-trvala/Esko-schema.pdf',
               },
             ],
           },
