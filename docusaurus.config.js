@@ -63,6 +63,7 @@ const config = {
           src: 'img/bohemian-trails-logo-large.png',
         },
         items: [
+          {to: '/introduction', label: 'Introduction', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'trailsSidebar',
@@ -76,7 +77,6 @@ const config = {
             label: 'Transportation',
           },
           {to: '/news', label: 'News', position: 'left'},
-          {to: '/faq', label: 'FAQ', position: 'left'},
         ],
       },
       footer: {
@@ -86,8 +86,20 @@ const config = {
             title: 'Trails',
             items: [
               {
-                label: 'Prague Trails',
-                to: 'trails/prague',
+                label: "Hokun",
+                to: 'trails/hokun',
+              },
+              {
+                label: "Kokomo",
+                to: 'trails/kokomo',
+              },
+              {
+                label: "Semmering",
+                to: 'trails/semmering',
+              },
+              {
+                label: "Rockyt",
+                to: 'trails/rockyt',
               },
             ],
           },
@@ -115,14 +127,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/josefpihrt/bohemiantrails',
               },
-              {
-                label: 'X',
-                href: 'https://www.twitter.com/bohemian_trails',
-              },
-              {
-                label: 'Facebook',
-                href: 'https://www.facebook.com/people/Bohemian-Trails/61552066348228',
-              },
+              // {
+              //   label: 'X',
+              //   href: 'https://www.twitter.com/bohemian_trails',
+              // },
+              // {
+              //   label: 'Facebook',
+              //   href: 'https://www.facebook.com/people/Bohemian-Trails/61552066348228',
+              // },
             ],
           },
         ],
