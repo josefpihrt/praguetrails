@@ -9,7 +9,7 @@ function GetGarminId(id: string) {
   switch (id)
   {
     case "barre":
-      return "211837509";
+      return "249757782";
     case "hokun":
       return "224619876";
     case "kokomo":
@@ -24,30 +24,6 @@ function GetGarminId(id: string) {
       return "211895409";
     case "sunrose":
       return "211914796";
-    default:
-      throw new Error();
-  }
-}
-
-function GetMapyCzId(id: string) {
-  switch (id)
-  {
-    case "barre":
-      return "652fd038acaa705928cd5a80";
-    case "hokun":
-      return "651f065a36a6efcb000cbf3b";
-    case "kokomo":
-      return "6515f72525e33d94be29277f";
-    case "laadchee":
-      return "6515f72525e33d94be29277e";
-    case "rockyt":
-      return "65363b85a80e3a2fbc8f11cc";
-    case "semmering":
-      return "652d80293a4984d1a065acef";
-    case "shark-a":
-      return "6515f72525e33d94be29277b";
-    case "sunrose":
-      return "6515f72525e33d94be29277a";
     default:
       throw new Error();
   }
