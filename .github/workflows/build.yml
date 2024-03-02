@@ -12,10 +12,6 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-    group: ${{ github.ref }}
-    cancel-in-progress: true
-
 jobs:
 
   build:
@@ -32,18 +28,23 @@ jobs:
         with:
           name: docusaurus
           path: build
+
   deploy:
-    # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-    # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+
     concurrency:
       group: "pages"
       cancel-in-progress: false
-    # if: github.ref_type == 'tag' && startsWith(github.ref_name, 'v')
+
+    if: github.ref_type == 'branch' && github.ref_name == 'main'
+
     needs: build
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/download-artifact@v4
         with:
@@ -58,37 +59,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
-
-  # deploy:
-
-  #   needs: build
-  #   runs-on: ubuntu-latest
-
-  #   permissions:
-  #     pages: write
-  #     id-token: write
-
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
-
-  # deploy:
-  #   if: github.ref_type == 'branch' && github.ref_name == 'main'
-  #   needs: build
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v3
-  #     - uses: Azure/static-web-apps-deploy@v1
-  #       with:
-  #         azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-  #         repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
-  #         action: "upload"
-  #         # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-  #         app_location: "/" # App source code path
-  #         api_location: "" # Api source code path - optional
-  #         output_location: "build" # Built app content directory - optional
