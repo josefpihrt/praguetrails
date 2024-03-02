@@ -35,7 +35,7 @@ jobs:
       group: "pages"
       cancel-in-progress: false
 
-    # if: github.ref_type == 'branch' && github.ref_name == 'main'
+    if: github.ref_type == 'branch' && github.ref_name == 'main'
 
     needs: build
 
