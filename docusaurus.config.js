@@ -6,15 +6,16 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://josefpihrt.github.io',
+  url: 'https://praguetrails.cz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/praguetrails/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'josefpihrt', // Usually your GitHub org/user name.
   projectName: 'praguetrails', // Usually your repo name.
+  deploymentBranch: 'feature/new-domain',
 
   trailingSlash: false,
   onBrokenLinks: 'throw',
