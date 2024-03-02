@@ -15,6 +15,10 @@ function HomepageHeader() {
         <img width="70%" src="img/prague-trails-horizontal-logo.png" />
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         <h1 className="hero__subtitle">{siteConfig.tagline}</h1>
+        <hr></hr>
+        <a href='introduction#trails'>
+          <img src="img/trails-map.png" />
+        </a>
       </div>
     </header>
   );
