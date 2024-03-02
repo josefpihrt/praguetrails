@@ -1,4 +1,4 @@
-name: Azure Static Web Apps CI/CD
+name: GitHub Pages Deployment CI/CD
 
 on:
   push:
@@ -6,29 +6,56 @@ on:
       - main
   pull_request:
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
 
   build:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: npm install
       - run: npm run build
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: docusaurus
+          path: build
 
   deploy:
+
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+
     if: github.ref_type == 'branch' && github.ref_name == 'main'
+
     needs: build
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: Azure/static-web-apps-deploy@v1
+      - uses: actions/download-artifact@v4
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
-          action: "upload"
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "/" # App source code path
-          api_location: "" # Api source code path - optional
-          output_location: "build" # Built app content directory - optional
+          name: docusaurus
+          path: docusaurus
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: docusaurus
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v3

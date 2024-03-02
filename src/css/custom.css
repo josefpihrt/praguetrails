@@ -37,3 +37,8 @@
 .pagination-nav {
   display: none;
 }
+
+img {
+  width: auto;
+  height: auto;
+}
