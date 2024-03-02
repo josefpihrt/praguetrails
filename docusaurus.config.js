@@ -1,21 +1,22 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
-  title: 'Bohemian Trails',
+  title: 'Prague Trails',
   tagline: 'Cross Country Bike Trails In and Around Prague',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://www.bohemiantrails.cz',
+  url: 'https://josefpihrt.github.io/praguetrails',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  // organizationName: 'facebook', // Usually your GitHub org/user name.
-  // projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'josefpihrt', // Usually your GitHub org/user name.
+  projectName: 'praguetrails', // Usually your repo name.
 
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -51,7 +52,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/bohemian-trails-social-card.jpg',
+      image: 'img/prague-trails-social-card.jpg',
       // colorMode: {
       //   defaultMode: 'dark',
       // },
@@ -60,7 +61,7 @@ const config = {
         // hideOnScroll: true,
         logo: {
           alt: 'Bohemian Trails Logo',
-          src: 'img/bohemian-trails-logo-large.png',
+          src: 'img/prague-trails-logo-large.png',
         },
         items: [
           {to: '/introduction', label: 'Introduction', position: 'left'},
@@ -125,16 +126,8 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/josefpihrt/bohemiantrails',
+                href: 'https://github.com/josefpihrt/praguetrails',
               },
-              // {
-              //   label: 'X',
-              //   href: 'https://www.twitter.com/bohemian_trails',
-              // },
-              // {
-              //   label: 'Facebook',
-              //   href: 'https://www.facebook.com/people/Bohemian-Trails/61552066348228',
-              // },
             ],
           },
         ],
