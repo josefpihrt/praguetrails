@@ -56,8 +56,8 @@ const sidebars = {
       },
       items: [
         'transportation/maps/prague-public-transport',
+        'transportation/maps/prague-trains',
         'transportation/maps/trains',
-        'transportation/maps/prague-trains'
       ],
     },
   ],
