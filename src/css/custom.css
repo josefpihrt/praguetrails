@@ -37,3 +37,18 @@
 .pagination-nav {
   display: none;
 }
+
+@media screen and (min-width: 997px) {
+  .main-page-title {
+    width: 70%;
+  }
+  .hero__title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .hero__title {
+    font-size: 1.5rem;
+  }
+}
