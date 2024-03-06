@@ -144,7 +144,7 @@ const config = {
             ],
           },
         ],
-        // copyright: `Copyright © 2023-${new Date().getFullYear()} Prague Trails Team`,
+        // copyright: `Copyright © 2023-${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,
