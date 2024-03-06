@@ -56,10 +56,8 @@ const config = {
       //   defaultMode: 'dark',
       // },
       navbar: {
-        // title: 'Bohemian Trails',
-        // hideOnScroll: true,
         logo: {
-          alt: 'Bohemian Trails Logo',
+          alt: 'Prague Trails Logo',
           src: 'img/prague-trails-logo-large.png',
         },
         items: [
@@ -86,6 +84,10 @@ const config = {
             title: 'Trails',
             items: [
               {
+                label: "Barre",
+                to: 'trails/barre',
+              },
+              {
                 label: "Hokun",
                 to: 'trails/hokun',
               },
@@ -94,12 +96,24 @@ const config = {
                 to: 'trails/kokomo',
               },
               {
+                label: "Laadchee",
+                to: 'trails/laadchee',
+              },
+              {
                 label: "Semmering",
                 to: 'trails/semmering',
               },
               {
                 label: "Rockyt",
                 to: 'trails/rockyt',
+              },
+              {
+                label: "Shark-A",
+                to: 'trails/shark-a',
+              },
+              {
+                label: "Sunrose",
+                to: 'trails/sunrose',
               },
             ],
           },
@@ -130,7 +144,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Josef Pihrt.`,
+        // copyright: `Copyright © 2023-${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,

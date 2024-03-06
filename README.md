@@ -1,4 +1,4 @@
-![Bohemian Trails Logo](static/img/prague-trails-horizontal-logo.png)
+![Prague Trails Logo](static/img/prague-trails-horizontal-logo.png)
 
 ## Introduction
 
