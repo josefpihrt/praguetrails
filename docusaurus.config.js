@@ -111,10 +111,6 @@ const config = {
                 label: "Shark-A",
                 to: 'trails/shark-a',
               },
-              {
-                label: "Sunrose",
-                to: 'trails/sunrose',
-              },
             ],
           },
           {
