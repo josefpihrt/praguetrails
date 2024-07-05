@@ -17,9 +17,6 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.tagline}</h1>
         <hr></hr>
         <a href='introduction#trails'><img src="img/trails-map.png" /></a>
-        <br></br>
-        <br></br>
-        <div>(formerly bohemiantrails.cz)</div>
       </div>
     </header>
   );
