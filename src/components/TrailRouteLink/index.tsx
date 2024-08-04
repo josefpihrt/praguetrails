@@ -22,8 +22,6 @@ function GetGarminId(id: string) {
       return "211858322";
     case "shark-a":
       return "211895409";
-    case "sunrose":
-      return "211914796";
     default:
       throw new Error();
   }
